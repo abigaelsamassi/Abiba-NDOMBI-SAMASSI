@@ -40,14 +40,11 @@ nav {
 }
 
 a {
-    color: #2196f3;
+    
     text-decoration: none;
-    border-top: 4px solid white;
-    border-radius: 20px;
     padding: 0 5px 0 5px;
-    border-right: 4px solid #e91e63;
-    border-left: 4px solid white;
-    border-bottom: 4px solid #e91e63;
+    color: white;
+   
 }
 
 
@@ -203,32 +200,32 @@ div.compétences div h2 {
     align-items: center;
 }
 
-.txv1 {
-    background-image: url(image/travaux-ConvertImage\ \(2\).jpg);
+.txv1 img {
+
     height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.txv2 {
-    background-image: url(image/formulaire.png);
+.txv2 img {
+   
     height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.txv3 {
-    background-image: url(image/méteo.png);
+.txv3 img {
+    
     height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.txv4 {
-    background-image: url(image/portfolio-02-ConvertImage.jpg);
+.txv4 img{
+   
     height: 100%;
     width: 100%;
     background-size: cover;
