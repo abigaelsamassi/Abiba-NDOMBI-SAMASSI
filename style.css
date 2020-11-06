@@ -39,11 +39,26 @@ nav {
     margin: auto;
 }
 
-a {
-    
+.presentation p a {
+    color: #2196f3;
+    text-decoration: none;
+    border-top: 4px solid #2196f3;
+    border-radius: 20px;
+    padding: 0 5px 0 5px;
+    border-right: 4px solid #e91e63;
+    border-left: 4px solid #2196f3;
+    border-bottom: 4px solid #e91e63;
+    font-size: 30px;
+    font-weight: bolder;
     text-decoration: none;
     padding: 0 5px 0 5px;
-    color: white;
+
+   
+}
+ a {
+   color: white;
+    text-decoration: none;
+   
    
 }
 
@@ -274,7 +289,7 @@ div.compétences div h2 {
         padding: 0;
         font-family: 'roboto sans-serif';
         overflow-x: hidden;
-        height: 4233PX;
+        height: 4500PX;
     }
     main nav ul {
         font-size: 0.7rem;
@@ -282,7 +297,10 @@ div.compétences div h2 {
         padding: 0px;
     }
     .contactheader {
-        display: none;
+       
+        text-decoration: none;
+        font-size:23;
+        
     }
     .contenu {
         display: block;
@@ -376,6 +394,3 @@ div.compétences div h2 {
         align-items: center;
     }
 }
-
-Dans l'univers du développement web certains se décrivent comme étant des devéloppeurs front-ent ou fuls-tack ,abiba quant à elle aime faire des choses extrahordinaires et osées et choisi de se spécialise dans le déveloopement back-ent
-                        au cour de sa formation en développement web et web mobile à école 241. C'est une femme vivant à libreville au Gabon; Chaque jour elle affronte les défis lier à son environemant afin d'aporter des solutions adaptées
