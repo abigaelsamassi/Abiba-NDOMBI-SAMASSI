@@ -9,6 +9,17 @@ body {
 
 
 /*début de la navbar*/
+.bar {
+    display: flex;
+
+}
+.bard{ 
+    width: 50%;
+    background-color: #2196f3;
+}
+main nav{
+    width: 50%;
+}
 
 main nav ul {
     display: flex;
@@ -18,10 +29,10 @@ main nav ul {
     color: white;
     font-weight: bolder;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: Roboto, sans-serif;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.rem;
     margin: 0px;
     padding: 0px;
 }
@@ -48,10 +59,10 @@ nav {
     border-right: 4px solid #e91e63;
     border-left: 4px solid #2196f3;
     border-bottom: 4px solid #e91e63;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
-    padding: 0 5px 0 5px;
+    padding: 0 5px;
 
    
 }
@@ -73,7 +84,7 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 40px;
+    font-size: 30px;
     /**margin-top: -0.5em;
 /* margin: 0 auto;*/
     background-image: url(image/BLU.jpg);
@@ -102,7 +113,7 @@ nav {
 
 .apropos {
     display: flex;
-    height: 100%;
+    height:500px;
     width: 100%;
 }
 
@@ -110,35 +121,39 @@ nav {
     /* height: 100vh; */
     box-shadow: 5px white;
     margin-bottom: 50px;
+    height:600px;
 }
 
-.imgconteneur {
-    width: 50%;
-}
 
 div.imgconteneur div {
     background-color: #2196f3;
-    height: 70%;
-    width: 60%;
+    height: 50%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+   
 }
 
 div.imgconteneur div img {
     margin: 0 auto;
-    width: 90%;
     margin-top: 11%;
     margin-left: 12%;
     height: 100%;
+    width: 88%;
 }
 
 .textabout {
-    width: 50%;
+    width:40%;
     margin: 0 auto;
     margin-top: 100px;
-    font-size: 1.7rem;
-    padding: 0 50px 0 50px;
+    font-size: 1.2rem;
+    padding: 30px 30PX 30px 30px;
     font-family: Roboto, sans-serif;
+    border: 2px solid white;
+    box-shadow:10px 10px 10px 10px rgb(248, 248, 248);
+    text-align: justify;
+    
+   
 }
 
 .textabout h1 {
@@ -151,12 +166,13 @@ div.imgconteneur div img {
     text-decoration: none;
     border-top: 4px solid #2196f3;
     border-radius: 20px;
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 5px 5px;
     border-right: 4px solid #e91e63;
     border-left: 4px solid #2196f3;
     border-bottom: 4px solid #e91e63;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bolder;
+    margin-top: 20px;
 }
 
 
@@ -175,11 +191,12 @@ div.imgconteneur div img {
     flex-wrap: wrap;
     height: 50%;
     width: 100%;
+    text-align: justify;
 }
 
 div.compétences div {
-    width: 20%;
-    height: 50%;
+    width:15%;
+    height: 55%;
     background-color: white;
     border: 5PX SOLID #2196f3;
     border-radius: 50px solid;
@@ -187,7 +204,10 @@ div.compétences div {
     border-right: 4px solid #e91e63;
     border-bottom: 4px solid #e91e63;
     border-top: 4px solid #2196f3;
+    box-shadow: 10px 10px 10px 10px rgb(248, 248, 248);
+    padding: 10px;
 }
+
 
 div.compétences div h2 {
     border: 5PX SOLID white;
@@ -204,9 +224,12 @@ div.compétences div h2 {
 }
 
 .travaux div {
-    height: 50%;
-    width: 20%;
+    height: 40%;
+    width: 15%;
+    box-shadow: 10px 10px 10px 10px rgb(248, 248, 248);
+    background-color: #2196f3;
 }
+
 
 .travaux {
     height: 40vw;
@@ -289,12 +312,19 @@ div.compétences div h2 {
         padding: 0;
         font-family: 'roboto sans-serif';
         overflow-x: hidden;
-        height: 4500PX;
+        height:3210PX;
     }
     main nav ul {
         font-size: 0.7rem;
         margin: 0px;
         padding: 0px;
+
+    }
+    main nav {
+        width: 100%;
+    }
+    .bard{
+        display:none ;
     }
     .contactheader {
        
@@ -319,7 +349,7 @@ div.compétences div h2 {
         margin: 0;
     }
     .presentation {
-        margin-left: 57px;
+        margin-left: 37px;
         padding-top: 20px;
     }
     .deco2 {
@@ -331,22 +361,25 @@ div.compétences div h2 {
     .textabout {
         width: 100%;
         font-size: 1.2rem;
-        margin-top: 50px;
+        margin-top:7px;
         text-align: justify;
     }
     .imgconteneur {
         display: none;
     }
     .textabout a {
-        font-size: 30px;
-        margin-left: 50px;
+        font-size: 25px;
+        margin-left: 80px;
+        padding: 0 5px;
     }
     .textabout p {
         margin-top: 40;
     }
     .PC {
-        font-size: 30PX;
-        margin: 50px;
+        font-size: 20PX;
+       margin-top: 120px;
+       width: 85%;
+       margin-bottom: 20px;
     }
     .compétences {
         display: block;
@@ -372,25 +405,40 @@ div.compétences div h2 {
         display: none;
     }
     .travaux div {
-        height: 317px;
+        height: 330px;
         width: 80%;
         margin-bottom: 30PX;
-        margin-left: 50PX;
+        margin-left: 40PX;
     }
     .travaux {
         display: block;
+          height: 60%;
+    } 
+    .REA{
+        margin-bottom: 40px;
+        margin-top: -58px;
+        width: 148px;
     }
+    .travaux div {
+        height:100%;
+        width: 50%;
+        box-shadow: 10px 10px 10px 10px rgb(248, 248, 248);
+       margin-left: 100px;
+    }
+    
     .CONTACT {
-        margin-top: 1250PX;
+        margin-top: 50px;
         height: 100%;
     }
     .adress {
-        margin-left: 12px;
-        font-size: 23PX;
+        margin-left: 35px;
+        font-size: 20PX;
         font-family: Roboto, sans-serif;
     }
     .social {
         justify-content: space-evenly;
         align-items: center;
+        margin-top: -31px;
+        margin-left: -45px;
     }
 }
