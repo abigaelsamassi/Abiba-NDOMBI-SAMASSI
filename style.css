@@ -1,16 +1,72 @@
-.menu {
-    background-color: rgb(255, 255, 255);
-    height: 4rem;
-    MARGIN: -1%;
+#menu{
+    background-image:url("./image/bgimg.png") ;
+    height: 500px;
+    
+}
+#menu ul {
     display: flex;
-    justify-content: end;
+    justify-content:right;
+   align-items: baseline;
+    text-decoration: none;
+    padding:  15PX 30PX 15PX 15px;
+    
+}
+#menu ul li a{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-right: 20PX;
+ padding-right: 20PX;
+}
+#menu ul li {
+   list-style-type: none;
+    
+  }
+  
+  .slider1{
+  margin:20PX auto;
+  max-width:700PX;
+  overflow: hidden;
+ background-color: #edaeaa00;
+ border-radius: 30PX;
+  
+ 
+  }
+ .slider1 .slider{
+  font-size:50PX;
+  display: flex;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  animation: slider1 8s infinite ease-in-out;
+}
+.slider1 p{
+  width: 100%;
+  padding: 50PX  0X;
+  flex-shrink: 0;
+  text-align:center;
+
+}
+@keyframes slider1{
+0%,
+40%{
+  transform: translateX(0);
+}
+50%,
+90%{
+  transform:translateX(-100%);
+}
+100%{
+  transform: translateX(-200%);
+}
+}
+em{
+  color:#dc3545;
+}
+span{
+  color:#03a4ed;
 }
 
-.menu1 {
-    height: 30PX;
-    margin-right: 70px;
-}
-
-body {
-    background-color: rgba(125, 123, 123, 0.043);
+/*portefolio*/
+.portefolio{
+  height: 700px;
+  background-color: #03a4ed;
 }
