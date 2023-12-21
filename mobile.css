@@ -23,3 +23,65 @@
         font-family: Roboto, sans-serif;
     }
 }
+
+
+<div class="diapo">
+<div class="diapo1">
+    <h2>Bienvenu sur <em> mon porfolio.</em></h2>
+    <h2>Je suis <span>Abiba NDOMBI SAMASSI.</span></h2>
+    <h2>Developpeur <em>Front-end.</em></h2>
+</div>
+<div class="diapo2">
+    <h2>Vous souhaitez <em>realiser</em><br>  votre <span> projet</span>?</h2>
+    <h2>  N'hésitez pas à me <em>contacter.</em></h2>
+</div>
+</div>
+
+h2 em{
+    color: #03a4ed;
+  
+  
+  }
+  h2{
+  width:55%;
+  margin:0;
+ 
+ 
+  }
+
+  h3{
+    margin-bottom: -30PX;
+  }
+
+  h3 em{
+    color: #dc3545;
+  }
+  h4 em{
+    color:#03a4ed;
+   
+  }
+
+ 
+  nav div {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 120PX;
+    margin-bottom: 0PX;
+   
+}
+span{
+  color: #dc3545;
+}
+/*diaporama*/
+.diapo{
+  display: flex;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+
+ 
+}
+.diapo1{
+  height: 100%;
+  min-width: 100%;
+}
