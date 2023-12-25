@@ -67,6 +67,49 @@ span{
 
 /*portefolio*/
 .portfolio{
-  height: 700px;
-  background-color: #03a4ed;
+  margin:10PX auto;
+  font-family:'Poppins', sans-serif ;
+  overflow: hidden;
+  height: 550px;
+  font-size:20PX
 }
+
+.projet{
+
+    display: flex;
+    font-family:'Poppins', sans-serif ;
+    font-weight: bold;
+    animation: slider1 12s infinite ease-in-out;
+}
+.projet div{
+ width: 35%;
+ padding: 20PX  0X;
+ flex-shrink: 0;
+
+
+}
+.projet div img {
+  width: 300PX;
+  border: #dc3545 2px;
+  opacity:13PX ;
+  
+ }
+/*
+*/
+ @keyframes portfolio{
+  0%,
+  30%{
+    transform: translateX(0);
+  }
+  33%,
+  63%{
+    transform:translateX(-100%);
+  }
+  66%,
+  96%{
+    transform: translateX(-200%);
+  }
+  100%{
+    transform: translateX(-300%);
+  }
+  }
