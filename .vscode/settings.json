@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.env.windows": {
+           "Path": "${env:PATH};C:/Development/SW/sonar-scanner/bin/;C:/Development/SW/terraform;"
+
+    },
+    "files.autoSave": "onFocusChange",
+    "window.zoomLevel":1,
+    
+}
+
+    
