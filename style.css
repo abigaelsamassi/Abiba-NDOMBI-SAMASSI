@@ -67,124 +67,15 @@
   }
   
   /*portefolio*/
-  .portfolio{
-  margin:10PX auto;
-  font-family:'Poppins', sans-serif ;
-  overflow: hidden;
-  height: 550px;
-  font-size:20PX
-  }
-  
-  .projet{
-  
-    display: flex;
-    font-family:'Poppins', sans-serif ;
-    font-weight: bold;
-    animation: slider1 12s infinite ease-in-out;
-  }
-  .projet div{
-  width: 35%;
-  padding: 20PX  0X;
-  flex-shrink: 0;
-  
-  
-  }
-  .projet div img {
-  width: 300PX;
-  border: #dc3545 2px;
-  opacity:13PX ; 
-  
-  }
-  /*
-  */
-  @keyframes portfolio{
-  0%,
-  30%{
-    transform: translateX(0);
-  }
-  33%,
-  63%{
-    transform:translateX(-100%);
-  }
-  66%,
-  96%{
-    transform: translateX(-200%);
-  }
-  100%{
-    transform: translateX(-300%);
-  }
-  
-      
-  }
-  #menu ul {
-      display: flex;
-      justify-content:right;
-     align-items: baseline;
-      text-decoration: none;
-      padding:  15PX 30PX 15PX 15px;
-      
-  }
-  #menu ul li a{
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin-right: 20PX;
-   padding-right: 20PX;
-  }
-  #menu ul li {
-     list-style-type: none;
-      
-    }
-    
-    .slider1{
-    margin:20PX auto;
-    max-width:700PX;
-    overflow: hidden;
-   background-color: #edaeaa00;
-   border-radius: 30PX;
-    
-   
-    }
-   .slider1 .slider{
-    font-size:50PX;
-    display: flex;
-    font-family:'Poppins', sans-serif ;
-    font-weight: bold;
-    animation: slider1 8s infinite ease-in-out;
  
-  }
-  .slider1 p{
-    width: 100%;
-    padding: 50PX  0X;
-    flex-shrink: 0;
-    text-align:center;
-  
-  }
-  @keyframes slider1{
-  0%,
-  40%{
-    transform: translateX(0);
-  }
-  50%,
-  90%{
-    transform:translateX(-100%);
-  }
-  100%{
-    transform: translateX(-200%);
-  }
-  }
-  em{
-    color:#dc3545;
-  }
-  span{
-    color:#03a4ed;
-  }
+ 
   
   /*portefolio*/
   .portfolio{
     margin:10PX auto;
     font-family:'Poppins', sans-serif ;
     overflow: hidden;
-    height: 550px;
+    height: 600px;
     font-size:20PX
   }
   
@@ -199,13 +90,29 @@
    width: 35%;
    padding: 20PX  0X;
    flex-shrink: 0;
-  
+   overflow: hidden;
   
   }
+  .projet div h3{
+    overflow: hidden;
+    text-align: justify;
+    max-width: 60%;
+    font-size: 20px;
+  }
+  .projet div p{
+    overflow:hidden ;
+    text-align: justify;
+  max-width: 60%;
+    
+  }
+  
+   
   .projet div img {
-    width: 300PX;
+   width:300PX;
     border: #dc3545 2px;
     opacity:13PX ; 
+    height: 300px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     
    }
   /*
@@ -227,3 +134,15 @@
       transform: translateX(-300%);
     }
     }
+    .portfolio h2{
+      text-align: center;
+      
+    }
+
+    /*
+    travail sur les stacks
+  */
+  .stacks{
+  height: 640px;
+    background-color: #03a4ed;
+  }
